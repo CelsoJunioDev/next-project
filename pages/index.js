@@ -7,7 +7,7 @@ export default function Home() {
   }
   return (
     <div>
-      homeeeee
+      Página inicial
       {contar}
       <button onClick={somar}>teste</button>
     </div>
