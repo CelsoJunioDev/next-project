@@ -6,10 +6,9 @@ export default function Home() {
     setContar(contar + 1);
   }
   return (
-    <div>
-      Página inicial
-      {contar}
-      <button onClick={somar}>teste</button>
+    <div style={{flex: 1,display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+      <h1>Home</h1>
+      <a href="/sobre">Ir para sobre</a>
     </div>
   );
 }
