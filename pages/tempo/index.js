@@ -17,7 +17,8 @@ export function getStaticProps() {
     props: {
       staticDateString,
     },
+    revalidate: 1, //revalida os dados a cada 1s
   };
 }
 
-export default Tempo
+export default Tempo;
